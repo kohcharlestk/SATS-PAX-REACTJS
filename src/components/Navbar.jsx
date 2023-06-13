@@ -1,4 +1,5 @@
 
+
 export default function Navbar() {
 
   $(document).ready(function () {

@@ -21,11 +21,11 @@ export default function TripToHome(props)  {
       </div>
       <div className="col s7">
         <div className="title-dat-h">DATE</div>
-        <div className="title-dat-1">{props.item.date}</div>
+        <div className="title-dat-1">{props.date}</div>
       </div>
       <div className="col s3">
         <div className="title-dat-h">TIME </div>
-        <div className="title-dat-1">{props.item.time}</div>
+        <div className="title-dat-1">{props.time}</div>
       </div>
     </div>
     <div className="divider mb1" />
@@ -33,7 +33,7 @@ export default function TripToHome(props)  {
       <div className="col s2" />
       <div className="col s10">
         <div className="title-dat-h">VEHICLE NO. </div>
-        <div className="title-dat-1">{props.item.vehicleno}</div>
+        <div className="title-dat-1">{props.vehicleno}</div>
       </div>
     </div>
     <div className="divider mb1" />
@@ -41,16 +41,16 @@ export default function TripToHome(props)  {
       <div className="col s2" />
       <div className="col s10">
         <div className="title-dat-h">PICK UP </div>
-        <div className="title-dat-1">{props.item.pickup}</div>
+        <div className="title-dat-1">{props.pickup}</div>
       </div>
     </div>
     <div className="row">
       <div className="col s2" />
       <div className="col s10">
         <div className="title-dat-h">DROP OFF </div>
-        <div className="title-dat-1">{props.item.dropoff}</div>
+        <div className="title-dat-1">{props.dropoff}</div>
         <div className="title-dat-1" id="postal_h_1">
-          S{props.item.postal}
+          S{props.postal}
         </div>
       </div>
     </div>

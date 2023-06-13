@@ -7,12 +7,21 @@ import Footer from './components/Footer';
 // simulate api data
 import triphomedata from "./apijson/triphomedata"
 
+
 function App() {
  const trip = triphomedata.map(item => {
   return (
     <TripToHome 
       key = {item.id}
-      item = {item}
+      {...item}
+    />
+  )
+ })
+ const staff = triphomedata.map(item => {
+  return (
+    <Staff 
+      key = {item.id}
+      {...item}
     />
   )
  })
@@ -21,7 +30,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <Staff />
+    {staff}
     <Notice />
     {trip}
     <Footer />

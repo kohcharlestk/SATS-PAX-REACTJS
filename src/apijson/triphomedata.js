@@ -1,6 +1,8 @@
 export default [
     {
       id: 1,
+      staffname: "Nane Surname Alias",
+      staffid: "7700334466",
       date: "11 June 2023",
       time: "23:50",
       vehicleno: "SMC 8800 Z",
